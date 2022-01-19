@@ -1,0 +1,44 @@
+.about {
+    background-color: $color-primario;
+
+}
+
+.about--info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 500px;
+
+    h2 {
+        padding-top: 40px;
+        font-weight: bold;
+        font-size: 2.6rem;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.3;
+    }
+}
+
+@media (min-width: 350px) {
+    .about--info p {
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: 768px) {
+    .about--info {
+        justify-content: center;
+
+        h2 {
+            margin-top: -50px;
+        }
+    }
+}

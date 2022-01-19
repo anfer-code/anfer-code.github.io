@@ -1,0 +1,40 @@
+$color-primario: #06215e;
+$color-secundario: #8c0a07;
+$apoyo-claro1: #0eb1d2;
+$apoyo-claro2: #34e4ea;
+$font-lato: 'Lato', sans-serif;
+$font-nuno: 'Nunito Sans', sans-serif;
+$font-color: #141c3a;
+$font-color-helper: rgba(10, 10, 10, 0.9);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.hide {
+    display: none!important;
+}
+
+@media (min-width: 780px) {
+    .container {
+        width: 95%;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: $font-lato;
+    color: $font-color;
+}
