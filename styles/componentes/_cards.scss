@@ -43,6 +43,37 @@
         color: $apoyo-claro1;
     }
 
+    li {
+        width: 85px;
+        margin: 0 auto 5px;
+        text-align: left;
+        list-style: none;
+        margin-bottom: 8px;
+        color: #0e0e0e;
+        position: relative;
+    }
+
+    .li--last {
+        width: 60%;
+    }
+
+    li:before {
+        content: '';
+        display: block;
+        width: 4px;
+        height: 4px;
+        background-color: #0e0e0e;
+        border-radius: 50%;
+        position: absolute;
+        left: -11px;
+        top: 8px;
+    }
+
+    a {
+        color: #0e0e0e;
+        text-decoration: none;
+    }
+
     &:last-child {
         margin-bottom: 0;
         border-radius: 10px;
