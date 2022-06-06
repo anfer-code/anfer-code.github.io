@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio - Anfer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:wght@600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./styles/index.css">
 </head>
+
 <body>
   <header class="header">
-    <a href="#">Home</a>
-    <nav class="nav">
-      <ul class="nav__list hide">
-        <li><a class="nav__a" href="#about">Sobre mí</a></li>
-        <li><a class="nav__a" href="#projects">Proyectos</a></li>
-        <li><a class="nav__a" href="#contact">Contactame</a></li>
-      </ul>
-      <div class="nav__menu">
-        <span class="material-icons">
-          menu
-        </span>
-      </div>
-    </nav>
+    <div class="container flexer">
+      <a href="#">Home</a>
+      <nav class="nav">
+        <ul class="nav__list hide">
+          <li><a class="nav__a" href="#about">Sobre mí</a></li>
+          <li><a class="nav__a" href="#projects">Proyectos</a></li>
+          <li><a class="nav__a" href="#contact">Contactame</a></li>
+        </ul>
+        <div class="nav__menu">
+          <span class="material-icons">
+            menu
+          </span>
+        </div>
+      </nav>
+    </div>
+
   </header>
 
   <section class="intro">
@@ -35,14 +41,14 @@
     <div class="intro--img">
       <img src="./assets/svg/undraw_code_thinking_re_gka2.svg" alt="Me">
     </div>
-    
+
     <a href="#about" class="intro--discover" for="#about">Descubre más <span class="material-icons">
-      keyboard_double_arrow_down
+        keyboard_double_arrow_down
       </span></a>
   </section>
 
   <main class="about" id="about">
-    <div class="about--info" >
+    <div class="about--info">
       <h2>Hola, soy Anfer. Un gusto en conocerte 👋.</h2>
       <p>Me dedico al desarrollo de Frontend con React.js. Mi pasión es hacer realidad ideas a través del código</p>
     </div>
@@ -55,8 +61,9 @@
           <img src="./assets/svg/undraw_programming_re_kg9v.svg" alt="Mobile development">
           <figcaption>Mi trabajo</figcaption>
         </figure>
-        <p>Me gusta traer a la vida a los diseños, manteniendo cada detalle al máximo y agregando interactividad a los sitios y aplicaciones web.</p>
-        
+        <p>Me gusta traer a la vida a los diseños, manteniendo cada detalle al máximo y agregando interactividad a los
+          sitios y aplicaciones web.</p>
+
       </article>
 
       <article class="card">
@@ -94,68 +101,72 @@
     <h2>Proyectos recientes</h2>
     <p>Observa mi trabajo aquí. Pronto agregaremos, tú y yo, un proyecto a esta galería. 😀</p>
     <div class="projects--grid">
-      <div class="projects--card">
-        <figure class="projects--img">
-          <img src="./assets/img/easy.png" alt="easybank projects">
-          <figcaption>
-            <h5>Easybank</h5>
-            <p>Es la maquetación de una landing page, hecha con CSS, HTML y JS Vanilla.</p>
-            <div>
-              <a href="https://anfer-code.github.io/easybank/index.html#">Ver proyecto</a>
-              <a href="https://github.com/anfer-code/easybank">Ver Código</a>
-            </div>
-          </figcaption>
-        </figure>
-        <div class="overlay"></div>
-      </div>
-      
-      <div class="projects--card">
-        <figure class="projects--img">
-          <img src="./assets/img/calculator.png" alt="calculator project">
-          <figcaption>
-            <h5>Calculadora</h5>
-            <p>Calculadora hecha con CSS, CSS GRID , HTML y JS Vanilla.</p>
-            <div>
-              <a href="https://anfer-code.github.io/calculator/">Ver proyecto</a>
-              <a href="https://github.com/anfer-code/calculator">Ver Código</a>
-            </div>
-          </figcaption>
-        </figure>
-        <div class="overlay"></div>
-      </div>
+      <div class="container flexer-column">
 
-      <div class="projects--card">
-        <figure class="projects--img">
-          <img src="./assets/img/cientifico.png" alt="cientifico project">
-          <figcaption>
-            <h5>1000tifico</h5>
-            <p>Es una SPA que consume la API de Rick & Morty. Hecha con CSS, HTML, JS Vanilla y Client Side Routing.</p>
-            <div>
-              <a href="https://anfer-code.github.io/100tifi.co/#">Ver proyecto</a>
-              <a href="https://github.com/anfer-code/100tifi.co">Ver Código</a>
-            </div>
-          </figcaption>
-        </figure>
-        <div class="overlay"></div>
+        <div class="projects--card">
+          <figure class="projects--img">
+            <img src="./assets/img/easy.png" alt="easybank projects">
+            <figcaption>
+              <h5>Easybank</h5>
+              <p>Es la maquetación de una landing page, hecha con CSS, HTML y JS Vanilla.</p>
+              <div>
+                <a href="https://anfer-code.github.io/easybank/index.html#">Ver proyecto</a>
+                <a href="https://github.com/anfer-code/easybank">Ver Código</a>
+              </div>
+            </figcaption>
+          </figure>
+          <div class="overlay"></div>
+        </div>
+
+        <div class="projects--card">
+          <figure class="projects--img">
+            <img src="./assets/img/kittens.png" alt="kittens project">
+            <figcaption>
+              <h5>Kittens Meow Meow</h5>
+              <p>Página web con integraciones de web3 hecha con Material UI y React JS</p>
+              <div>
+                <a href="https://kreatrues.xyz/">Ver proyecto</a>
+              </div>
+            </figcaption>
+          </figure>
+          <div class="overlay"></div>
+        </div>
+
+        <div class="projects--card">
+          <figure class="projects--img">
+            <img src="./assets/img/cientifico.png" alt="cientifico project">
+            <figcaption>
+              <h5>1000tifico</h5>
+              <p>Es una SPA que consume la API de Rick & Morty. Hecha con CSS, HTML, JS Vanilla y Client Side Routing.
+              </p>
+              <div>
+                <a href="https://anfer-code.github.io/100tifi.co/#">Ver proyecto</a>
+                <a href="https://github.com/anfer-code/100tifi.co">Ver Código</a>
+              </div>
+            </figcaption>
+          </figure>
+          <div class="overlay"></div>
+        </div>
+
+        <div class="projects--card">
+          <figure class="projects--img">
+            <img src="./assets/img/windbnb.png" alt="windbnb project">
+            <figcaption>
+              <h5>Windbnb</h5>
+              <p>Mini clon de la aplicación Airbnb, hecha con React JS.</p>
+              <div>
+                <a href="https://anfer-code.github.io/windbnb/">Ver proyecto</a>
+                <a href="https://github.com/anfer-code/windbnb">Ver Código</a>
+              </div>
+            </figcaption>
+          </figure>
+          <div class="overlay"></div>
+        </div>
+
+
       </div>
-
-      <div class="projects--card">
-        <figure class="projects--img">
-          <img src="./assets/img/windbnb.png" alt="windbnb project">
-          <figcaption>
-            <h5>Windbnb</h5>
-            <p>Mini clon de la aplicación Airbnb, hecha con React JS.</p>
-            <div>
-              <a href="https://anfer-code.github.io/windbnb/">Ver proyecto</a>
-              <a href="https://github.com/anfer-code/windbnb">Ver Código</a>
-            </div>
-          </figcaption>
-        </figure>
-        <div class="overlay"></div>
-      </div>
-
-
     </div>
+
   </section>
 
   <section id="contact" class="contact">
@@ -173,4 +184,5 @@
   </footer>
   <script src="./index.js"></script>
 </body>
+
 </html>
